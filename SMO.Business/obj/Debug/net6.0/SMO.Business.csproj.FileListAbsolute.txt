@@ -1,0 +1,15 @@
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.csproj.AssemblyReference.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.AssemblyInfoInputs.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.AssemblyInfo.cs
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.csproj.CoreCompileInputs.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Business.deps.json
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Business.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\ref\SMO.Business.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Business.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Frontier.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Frontier.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.csproj.CopyComplete
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\ref\SMO.Business.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.pdb

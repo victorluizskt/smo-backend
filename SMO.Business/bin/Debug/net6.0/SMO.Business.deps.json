@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SMO.Business/1.0.0": {
+        "dependencies": {
+          "SMO.Frontier": "1.0.0"
+        },
+        "runtime": {
+          "SMO.Business.dll": {}
+        }
+      },
+      "SMO.Frontier/1.0.0": {
+        "runtime": {
+          "SMO.Frontier.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SMO.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMO.Frontier/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

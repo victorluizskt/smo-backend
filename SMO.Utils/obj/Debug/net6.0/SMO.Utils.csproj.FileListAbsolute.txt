@@ -1,0 +1,15 @@
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\bin\Debug\net6.0\SMO.Utils.deps.json
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\bin\Debug\net6.0\SMO.Utils.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\bin\Debug\net6.0\ref\SMO.Utils.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\bin\Debug\net6.0\SMO.Utils.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\bin\Debug\net6.0\SMO.Frontier.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\bin\Debug\net6.0\SMO.Frontier.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.csproj.AssemblyReference.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.AssemblyInfoInputs.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.AssemblyInfo.cs
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.csproj.CoreCompileInputs.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.csproj.CopyComplete
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\ref\SMO.Utils.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Utils\obj\Debug\net6.0\SMO.Utils.pdb

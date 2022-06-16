@@ -1,0 +1,12 @@
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\SMO.Frontier.deps.json
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\SMO.Frontier.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\ref\SMO.Frontier.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\SMO.Frontier.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.AssemblyInfoInputs.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.AssemblyInfo.cs
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.csproj.CoreCompileInputs.cache
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\ref\SMO.Frontier.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.csproj.AssemblyReference.cache
