@@ -2,13 +2,13 @@
 
 namespace SMO.Repository.DatabaseUtils
 {
-    public class DatabaseUtils
+    public class DatabaseUtil
     {
         private const char PATH_SEPARATOR = '.';
 
         public static string LoadResourceFile(string resourcePath, string resourceName)
         {
-            var executingAssembly = typeof(DatabaseUtils).Assembly;
+            var executingAssembly = typeof(DatabaseUtil).Assembly;
             var sqlStatement = string.Empty;
             var pathBuilder = new StringBuilder();
 
@@ -29,7 +29,7 @@ namespace SMO.Repository.DatabaseUtils
 
         public static string LoadSqlStatement(string statementName, string controllerNamespace)
         {
-            return DatabaseUtils.LoadResourceFile(string.Format("{0}.Query", controllerNamespace ?? string.Empty), statementName);
+            return DatabaseUtil.LoadResourceFile(string.Format("{0}.Query", controllerNamespace ?? string.Empty), statementName);
         }
     }
 }
