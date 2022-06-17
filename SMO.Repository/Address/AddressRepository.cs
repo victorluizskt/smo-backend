@@ -3,6 +3,7 @@ using SMO.Frontier.DTO.Address;
 using SMO.Frontier.Entities.Address;
 using SMO.Frontier.Repository.Address;
 using SMO.Repository.DatabaseUtils;
+using SMO.Utils;
 using SMO.Utils.Data;
 using System.Data;
 
@@ -58,7 +59,7 @@ namespace SMO.Repository.Address
                 dynamicParameters.Add("@State", addressEntity.State, DbType.String);
                 dynamicParameters.Add("@PostalCode", addressEntity.PostalCode, DbType.String);
                 dynamicParameters.Add("@NumberHouse", addressEntity.NumberHouse, DbType.String);
-                dynamicParameters.Add("@Flag", addressEntity.Flag, DbType.Int32);
+                dynamicParameters.Add("@Flag", Constants.FLAG_USER, DbType.Int32);
                 dynamicParameters.Add("@Country", addressEntity.Country, DbType.String);
                 dynamicParameters.Add("@Complement", addressEntity.Complement, DbType.String);
 

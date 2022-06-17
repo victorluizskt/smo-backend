@@ -2,6 +2,6 @@
 {
     public static class Constants
     {
-        public static int CONT;
+        public static int FLAG_USER = 1;
     }
 }

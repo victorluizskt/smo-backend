@@ -36,7 +36,6 @@ namespace SMO.Frontier.DTO.Address
             State = addressCreateModel.State;
             PostalCode = addressCreateModel.PostalCode;
             NumberHouse = addressCreateModel.NumberHouse;
-            Flag = addressCreateModel.Flag;
             Complement = addressCreateModel.Complement;
             Country = addressCreateModel.Country;
         }
