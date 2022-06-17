@@ -2,6 +2,7 @@
 using SMO.Frontier.DTO.Address;
 using SMO.Frontier.Entities.Address;
 using SMO.Frontier.Repository.Address;
+using SMO.Repository.DatabaseUtils;
 using SMO.Utils.Data;
 using System.Data;
 
@@ -16,58 +17,30 @@ namespace SMO.Repository.Address
         }
 
         #region SQL
-        private readonly string INSERT_ADDRESS_BY_ID = 
-            "INSERT INTO " +
-            "dbo.endereco (" +
-            "id_user, " +
-            "street_address, " +
-            "city_address, " +
-            "state_address, " +
-            "postal_code_address, " +
-            "number_house_address, " +
-            "flag_address, " +
-            "complemento, " +
-            "pais ) " +
-            "VALUES (@Id_User, @Street, @City, @State, @PostalCode, @NumberHouse, @Flag, @Complement, @Country)";
+        private readonly string INSERT_ADDRESS_BY_ID = DatabaseUtil.LoadSqlStatement(
+            "InsertAddressById.sql", typeof(AddressRepository).Namespace
+        );
 
-        private readonly string UPDATE_FLAG_USER = 
-           "UPDATE dbo.endereco " +
-           "SET flag_address = 0 " +
-           "WHERE id_user = @idUser";
+        private readonly string UPDATE_FLAG_USER = DatabaseUtil.LoadSqlStatement(
+            "UpdateFlagUser.sql", typeof(AddressRepository).Namespace
+        );
 
-        private readonly string GET_ADDRESS_BY_ID = 
-            "SELECT " +
-            "id_address AS IdAddress, " +
-            "street_address AS Street, " +
-            "city_address AS City, " +
-            "state_address AS State, " +
-            "postal_code_address AS PostalCode, " +
-            "number_house_address AS NumberHouse, " +
-            "flag_address AS Flag, " +
-            "complemento AS Complement, " +
-            "pais AS Country " +
-            "FROM dbo.endereco " +
-            "WHERE id_user = @idUser";
+        private readonly string GET_ADDRESS_BY_ID = DatabaseUtil.LoadSqlStatement(
+            "GetAddressById.sql", typeof(AddressRepository).Namespace
+        );
 
-        private readonly string DELETE_ADDRESS_USER = 
-            "DELETE dbo.endereco " +
-            "WHERE id_address = @idAddress";
+        private readonly string DELETE_ADDRESS_USER = DatabaseUtil.LoadSqlStatement(
+            "DeleteAddressUser.sql", typeof(AddressRepository).Namespace
+        );
 
-        private readonly string UPDATE_ADDRESS = "UPDATE " +
-            "dbo.endereco SET " +
-            "street_address = @Street, " +
-            "city_address = @City, " +
-            "state_address = @State, " +
-            "postal_code_address = @PostalCode, " +
-            "number_house_address = @NumberHouse, " +
-            "flag_address = @Flag, " +
-            "complemento = @Complement, " +
-            "pais = @Country " +
-            "WHERE id_address = @IdAddress";
+        private readonly string UPDATE_ADDRESS = DatabaseUtil.LoadSqlStatement(
+            "UpdateAddress.sql", typeof(AddressRepository).Namespace
+        );
+        
+        private readonly string DELETE_ALL_ADDRESS_USER = DatabaseUtil.LoadSqlStatement(
+            "DeleteAllAddressUser.sql", typeof(AddressRepository).Namespace
+        );
 
-        private readonly string DELETE_ALL_ADDRESS_USER =
-            "DELETE dbo.endereco " +
-            "WHERE id_user = @idUser";
         #endregion
 
         public async Task<bool> CreateAddressUser(AddressDto addressDto, int idUser)
