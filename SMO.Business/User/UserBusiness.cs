@@ -96,7 +96,6 @@ namespace SMO.Business.User
                 PostalCode = userModel.PostalCode,
                 State = userModel.State,
                 Street = userModel.Street,
-                Flag = userModel.Flag,
                 Country = userModel.Country,
                 Complement = userModel.Complement
             };

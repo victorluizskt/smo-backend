@@ -8,5 +8,6 @@ postal_code_address,
 number_house_address, 
 flag_address, 
 complemento, 
-pais) 
-VALUES (@Id_User, @Street, @City, @State, @PostalCode, @NumberHouse, @Flag, @Complement, @Country)
+pais,
+date_create_address) 
+VALUES (@Id_User, @Street, @City, @State, @PostalCode, @NumberHouse, @Flag, @Country, @Complement, @DateCreateAddress)

@@ -31,9 +31,7 @@ namespace SMO.Backend.Controllers.API.v1.Register
         {
             var success = await AddressBusiness.CreateAddressUser(addressModel, idUser);
             if (success)
-            {
                 return Ok(success);
-            }
 
             return BadRequest();
         }
@@ -54,9 +52,7 @@ namespace SMO.Backend.Controllers.API.v1.Register
         {
             var updated = await AddressBusiness.UpdateAddress(addressModel, idAddress);
             if (updated)
-            {
                 return Ok(updated);
-            }
 
             return BadRequest();
         }
@@ -70,9 +66,7 @@ namespace SMO.Backend.Controllers.API.v1.Register
         {
             var deleted = await AddressBusiness.DeleteAddressUser(idAddress);
             if (deleted)
-            {
                 return Ok(deleted);
-            }
 
             return BadRequest();
         }

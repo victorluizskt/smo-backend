@@ -54,9 +54,7 @@ namespace SMO.Backend.Controllers.v1.Users
         {
             var success = await UserBusiness.UpdateUser(userModel, idUser);
             if (success)
-            {
                 return Ok(success);
-            }
 
             return BadRequest(success); 
         }
@@ -75,9 +73,7 @@ namespace SMO.Backend.Controllers.v1.Users
         {
             var deleted = await UserBusiness.DeleteUserById(idUser);
             if (deleted)
-            {
                 return Ok(deleted);
-            }
 
             return BadRequest(deleted);
         }

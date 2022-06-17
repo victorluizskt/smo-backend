@@ -41,6 +41,13 @@ namespace SMO.Business.Address
 
         public async Task<bool> DeleteAddressUser(int idAddress)
         {
+            var latestId = await AddressRepository.GetLatestId(idAddress);
+            var equals = CompareIds(latestId, idAddress);
+            if (equals && latestId.Count() >= 2)
+            {
+                await AddressRepository.SetLatestFlagIdAddress(latestId.ElementAt(1));
+            }
+
             return await AddressRepository.DeleteAddressUser(idAddress);
         }
 
@@ -53,6 +60,12 @@ namespace SMO.Business.Address
         public async Task<bool> DeleteAllAddressUser(int idUser)
         {
             return await AddressRepository.DeleteAllAddressUser(idUser);
+        }
+
+        private bool CompareIds(IEnumerable<int> idsAdress, int idUserDelete)
+        {
+            var idAddress = idsAdress.FirstOrDefault();
+            return idAddress.Equals(idUserDelete);
         }
     }
 }

@@ -11,6 +11,8 @@ namespace SMO.Frontier.Repository.Address
         Task UpdateFlagAddress(int idUser);
         Task<bool> DeleteAddressUser (int idAddress);
         Task<bool> UpdateAddress(AddressDto addressModel, int addressDto);
-        Task<bool> DeleteAllAddressUser(int idUser);    
+        Task<bool> DeleteAllAddressUser(int idUser);
+        Task<IEnumerable<int>> GetLatestId(int idAddress);
+        Task SetLatestFlagIdAddress(int idAddress);
     }
 }

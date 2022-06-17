@@ -7,10 +7,36 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Address\Query\DeleteAddressUser.sql" />
+    <None Remove="Address\Query\DeleteAllAddressUser.sql" />
+    <None Remove="Address\Query\GetAddressById.sql" />
+    <None Remove="Address\Query\GetLatestIdAddress.sql" />
+    <None Remove="Address\Query\InsertAddressById.sql" />
+    <None Remove="Address\Query\SetLatestFlagIdAddress.sql" />
+    <None Remove="Address\Query\UpdateAddress.sql" />
+    <None Remove="Address\Query\UpdateFlagUser.sql" />
+    <None Remove="User\Query\DeleteUser.sql" />
+    <None Remove="User\Query\GetUserByCpf.sql" />
+    <None Remove="User\Query\GetUserById.sql" />
     <None Remove="User\Query\InsertUser.sql" />
+    <None Remove="User\Query\UpdateUser.sql" />
+    <None Remove="User\Query\ValidateLoginUser.sql" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Address\Query\GetLatestIdAddress.sql" />
+    <EmbeddedResource Include="Address\Query\UpdateAddress.sql" />
+    <EmbeddedResource Include="Address\Query\DeleteAddressUser.sql" />
+    <EmbeddedResource Include="Address\Query\GetAddressById.sql" />
+    <EmbeddedResource Include="Address\Query\DeleteAllAddressUser.sql" />
+    <EmbeddedResource Include="Address\Query\SetLatestFlagIdAddress.sql" />
+    <EmbeddedResource Include="Address\Query\UpdateFlagUser.sql" />
+    <EmbeddedResource Include="Address\Query\InsertAddressById.sql" />
+    <EmbeddedResource Include="User\Query\DeleteUser.sql" />
+    <EmbeddedResource Include="User\Query\ValidateLoginUser.sql" />
+    <EmbeddedResource Include="User\Query\GetUserByCpf.sql" />
+    <EmbeddedResource Include="User\Query\GetUserById.sql" />
+    <EmbeddedResource Include="User\Query\UpdateUser.sql" />
     <EmbeddedResource Include="User\Query\InsertUser.sql" />
   </ItemGroup>
 

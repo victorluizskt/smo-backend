@@ -42,6 +42,14 @@ namespace SMO.Repository.Address
             "DeleteAllAddressUser.sql", typeof(AddressRepository).Namespace
         );
 
+        private readonly string GET_LATEST_ID_ADDRESS = DatabaseUtil.LoadSqlStatement(
+            "GetLatestIdAddress.sql", typeof(AddressRepository).Namespace
+        );
+
+        private readonly string SET_LATEST_FLAG_ID_USER = DatabaseUtil.LoadSqlStatement(
+            "SetLatestFlagIdAddress.sql", typeof(AddressRepository).Namespace
+        );
+
         #endregion
 
         public async Task<bool> CreateAddressUser(AddressDto addressDto, int idUser)
@@ -62,6 +70,7 @@ namespace SMO.Repository.Address
                 dynamicParameters.Add("@Flag", Constants.FLAG_USER, DbType.Int32);
                 dynamicParameters.Add("@Country", addressEntity.Country, DbType.String);
                 dynamicParameters.Add("@Complement", addressEntity.Complement, DbType.String);
+                dynamicParameters.Add("@DateCreateAddress", DateTime.Now, DbType.DateTime);
 
                 await connection.ExecuteAsync(INSERT_ADDRESS_BY_ID, dynamicParameters);
                 return true;
@@ -99,7 +108,7 @@ namespace SMO.Repository.Address
             using var connection = userSession.CreateConnection();
             var dynamicParameters = new DynamicParameters();
             dynamicParameters.Add("@idAddress", idAddress, DbType.Int32);
-            var deleted = await connection.ExecuteAsync(DELETE_ADDRESS_USER, dynamicParameters);
+            await connection.ExecuteAsync(DELETE_ADDRESS_USER, dynamicParameters);
             return true;
         }
 
@@ -114,7 +123,7 @@ namespace SMO.Repository.Address
             dynamicParameters.Add("@State", addressEntity.State, DbType.String);
             dynamicParameters.Add("@PostalCode", addressEntity.PostalCode, DbType.String);
             dynamicParameters.Add("@NumberHouse", addressEntity.NumberHouse, DbType.String);
-            dynamicParameters.Add("@Flag", addressEntity.Flag, DbType.Int32);
+            dynamicParameters.Add("@Flag", 0, DbType.Int32);
             dynamicParameters.Add("@Country", addressEntity.Country, DbType.String);
             dynamicParameters.Add("@Complement", addressEntity.Complement, DbType.String);
 
@@ -127,8 +136,24 @@ namespace SMO.Repository.Address
             using var connection = userSession.CreateConnection();
             var dynamicParameters = new DynamicParameters();
             dynamicParameters.Add("@idUser", idUser, DbType.Int32);
-            var deleted = await connection.ExecuteAsync(DELETE_ALL_ADDRESS_USER, dynamicParameters);
+            await connection.ExecuteAsync(DELETE_ALL_ADDRESS_USER, dynamicParameters);
             return true;
+        }
+
+        public async Task<IEnumerable<int>> GetLatestId(int idAddress)
+        {
+            using var connection = userSession.CreateConnection();
+            var dynamicParameters = new DynamicParameters();
+            dynamicParameters.Add("@idAddress", idAddress, DbType.Int32);
+            return await connection.QueryAsync<int>(GET_LATEST_ID_ADDRESS, dynamicParameters);
+        }
+
+        public async Task SetLatestFlagIdAddress(int idAddress)
+        {
+            using var connection = userSession.CreateConnection();
+            var dynamicParameters = new DynamicParameters();
+            dynamicParameters.Add("@idAddress", idAddress, DbType.Int32);
+            await connection.ExecuteAsync(SET_LATEST_FLAG_ID_USER, dynamicParameters);
         }
     }
 }

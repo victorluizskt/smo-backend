@@ -54,6 +54,7 @@ namespace SMO.Repository.User
             dynamicParameters.Add("@Password", userEntity.Password, DbType.String);
             dynamicParameters.Add("@Cpf", userEntity.CPF, DbType.String);
             dynamicParameters.Add("@NumberPhone", userEntity.NumberPhone, DbType.String);
+            dynamicParameters.Add("@DateCreateUser", DateTime.Now, DbType.DateTime);
 
             var idUser = await connection.QueryFirstAsync<int>(INSERT_USER, dynamicParameters);
             return idUser;
