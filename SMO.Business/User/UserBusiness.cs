@@ -27,9 +27,9 @@ namespace SMO.Business.User
             var userDto = new UserDto(userModel);
 
             using var transactionScope = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled);
-            //var cpfExists = await UserRepository.GetUserByCpf(userModel.CPF);
-            //if (cpfExists is not null)
-            //    return false;
+            var cpfExists = await UserRepository.GetUserByCpf(userModel.CPF);
+            if (cpfExists is not null)
+                return false;
             var idUser = await UserRepository.CreateUser(userDto);
             var addressModel = CreateAddresModel(userModel);
             await AddressBusiness.CreateAddressUser(addressModel, idUser);

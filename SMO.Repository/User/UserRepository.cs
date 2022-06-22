@@ -128,7 +128,7 @@ namespace SMO.Repository.User
             using var connection = userSession.CreateConnection();
             var dynamicParameters = new DynamicParameters();
             dynamicParameters.Add("@CPF", CpfUser, DbType.String);
-            return await connection.QueryFirstAsync<string>(GET_USER_BY_CPF, dynamicParameters);
+            return await connection.QueryFirstOrDefaultAsync<string>(GET_USER_BY_CPF, dynamicParameters);
         }
     }
 }

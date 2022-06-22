@@ -4,14 +4,75 @@
     "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj": {
+    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj",
-        "projectName": "SMO.Tests",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj",
+        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj",
+        "projectName": "SMO.Business",
+        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\obj\\",
+        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
+        "projectName": "SMO.Frontier",
+        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
+        "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,10 +103,78 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj",
+        "projectName": "SMO.Tests",
+        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\SMO.Tests.csproj",
+        "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
+                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj"
+              },
+              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

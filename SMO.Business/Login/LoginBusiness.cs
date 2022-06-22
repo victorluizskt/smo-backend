@@ -10,6 +10,7 @@ namespace SMO.Business.Login
     {
         private readonly IUserRepository UserRepository;
         private readonly IUserBusiness UsersBusiness;
+
         public LoginBusiness(IUserRepository userRepository, IUserBusiness userBusiness)
         {
             UserRepository = userRepository;
