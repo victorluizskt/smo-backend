@@ -10,7 +10,7 @@ namespace SMO.Frontier.Repository.User
         Task<bool> UpdateUser(UserDto userDto, int idUser);
         Task<UserEntity> GetUserById(int id);
         Task<bool> DeleteUserById(int id);
-        Task<int> ValidateUser(UserLogin userLogin);
+        Task<int>  ValidateUser(UserLogin userLogin);
         Task<string> GetUserByCpf(string CpfUser);
     }
 }

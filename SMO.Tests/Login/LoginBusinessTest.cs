@@ -40,13 +40,12 @@ namespace SMO.Tests.Login
             Complement = "AP 102"
         };
 
-        private UserLogin UserLogin() {
+        private static UserLogin UserLogin() {
             return new UserLogin
             {
                 Email = "victorluizcefet@gmail.com",
                 Password = "1231456"
             };
-
         }
         #endregion
 
@@ -54,15 +53,17 @@ namespace SMO.Tests.Login
 
         private IUserRepository CreateMockedUserRepository()
         {
-            var userRepository = new Mock<IUserRepository>(MockBehavior.Loose);
-            userRepository.Setup(x => x.ValidateUser(UserLogin())).ReturnsAsync(() => ID_USER);
+            var userRepository = new Mock<IUserRepository>(MockBehavior.Strict);
+            userRepository.Setup(x => x.ValidateUser(
+                It.IsAny<UserLogin>()
+            )).ReturnsAsync(() => ID_USER);
 
             return userRepository.Object;
         }
 
         private IUserBusiness CreateMockedUserBusiness()
         {
-            var userBusiness = new Mock<IUserBusiness>(MockBehavior.Loose);
+            var userBusiness = new Mock<IUserBusiness>(MockBehavior.Strict);
             userBusiness.Setup(x => x.GetUserById(ID_USER)).ReturnsAsync(() => userDto);
 
             return userBusiness.Object;
@@ -72,9 +73,10 @@ namespace SMO.Tests.Login
         [Fact]
         public async Task ShouldLoginUserCorrect()
         {
-            var userStructure = await LoginBusiness.LoginUser(UserLogin());
+            var userStructure = await loginBusiness.LoginUser(UserLogin());
 
-            Assert.Null(userStructure);
+            Assert.NotNull(userStructure);
+            Assert.Equal("AP 102", userStructure.Complement);
         }
     }
 }
