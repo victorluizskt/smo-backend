@@ -1,9 +1,8 @@
 ﻿using SMO.Frontier.DTO.Address;
 using SMO.Frontier.Interfaces.Business.Address;
-using SMO.Frontier.Model;
 using SMO.Frontier.Model.Address;
 using SMO.Frontier.Repository.Address;
-using System.Transactions;
+using SMO.Utils;
 
 namespace SMO.Business.Address
 {
@@ -39,13 +38,13 @@ namespace SMO.Business.Address
             await AddressRepository.UpdateFlagAddress(idUser);
         }
 
-        public async Task<bool> DeleteAddressUser(int idAddress)
+        public async Task<bool> DeleteAddressUser(int idUser, int idAddress)
         {
-            var latestId = await AddressRepository.GetLatestId(idAddress);
-            var equals = CompareIds(latestId, idAddress);
-            if (equals && latestId.Count() >= 2)
+            var addressListUser = await AddressRepository.GetAddressListOrderByDesc(idUser);
+            var idsAddressEquals = CompareIds(addressListUser.FirstOrDefault(), idAddress);
+            if (idsAddressEquals && addressListUser.Count() >= Constants.TWO_ADDRESS)
             {
-                await AddressRepository.SetLatestFlagIdAddress(latestId.ElementAt(1));
+                await AddressRepository.SetLatestFlagIdAddress(addressListUser.ElementAt(Constants.SECOND_ADRRESS));
             }
 
             return await AddressRepository.DeleteAddressUser(idAddress);
@@ -62,9 +61,8 @@ namespace SMO.Business.Address
             return await AddressRepository.DeleteAllAddressUser(idUser);
         }
 
-        private bool CompareIds(IEnumerable<int> idsAdress, int idUserDelete)
+        private bool CompareIds(int idAddress, int idUserDelete)
         {
-            var idAddress = idsAdress.FirstOrDefault();
             return idAddress.Equals(idUserDelete);
         }
     }

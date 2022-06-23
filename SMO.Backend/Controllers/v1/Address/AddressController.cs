@@ -61,10 +61,14 @@ namespace SMO.Backend.Controllers.API.v1.Register
         [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(bool))]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public async Task<IActionResult> DeleteAddress(
-            [FromHeader] int idAddress
+            [FromHeader] DeleteAddressModel deleteAddressModel
         )
         {
-            var deleted = await AddressBusiness.DeleteAddressUser(idAddress);
+            var deleted = await AddressBusiness.DeleteAddressUser(
+                deleteAddressModel.IdUser, 
+                deleteAddressModel.IdAddress
+            );
+
             if (deleted)
                 return Ok(deleted);
 

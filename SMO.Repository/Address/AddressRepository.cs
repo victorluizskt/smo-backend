@@ -140,11 +140,11 @@ namespace SMO.Repository.Address
             return true;
         }
 
-        public async Task<IEnumerable<int>> GetLatestId(int idAddress)
+        public async Task<IEnumerable<int>> GetAddressListOrderByDesc(int idUser)
         {
             using var connection = userSession.CreateConnection();
             var dynamicParameters = new DynamicParameters();
-            dynamicParameters.Add("@idAddress", idAddress, DbType.Int32);
+            dynamicParameters.Add("@idUser", idUser, DbType.Int32);
             return await connection.QueryAsync<int>(GET_LATEST_ID_ADDRESS, dynamicParameters);
         }
 

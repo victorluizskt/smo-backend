@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SMO.Frontier.DTO.User;
 using SMO.Frontier.Interfaces.Business.Login;
 using SMO.Frontier.Model.User;
 using SMO.Frontier.Model.UserLogin;

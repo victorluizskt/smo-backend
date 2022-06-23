@@ -117,6 +117,9 @@
             "projectReferences": {
               "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
                 "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              },
+              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
+                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
               }
             }
           }

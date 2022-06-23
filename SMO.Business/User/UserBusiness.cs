@@ -6,7 +6,6 @@ using SMO.Frontier.Interfaces.Business.Address;
 using SMO.Frontier.Interfaces.Business.User;
 using SMO.Frontier.Repository.User;
 using System.Transactions;
-using SMO.Frontier.Model;
 using SMO.Frontier.Model.Address;
 
 namespace SMO.Business.User

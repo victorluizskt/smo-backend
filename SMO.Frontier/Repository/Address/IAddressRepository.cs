@@ -1,6 +1,5 @@
 ﻿using SMO.Frontier.DTO.Address;
 using SMO.Frontier.Entities.Address;
-using SMO.Frontier.Model;
 
 namespace SMO.Frontier.Repository.Address
 {
@@ -12,7 +11,7 @@ namespace SMO.Frontier.Repository.Address
         Task<bool> DeleteAddressUser (int idAddress);
         Task<bool> UpdateAddress(AddressDto addressModel, int addressDto);
         Task<bool> DeleteAllAddressUser(int idUser);
-        Task<IEnumerable<int>> GetLatestId(int idAddress);
+        Task<IEnumerable<int>> GetAddressListOrderByDesc(int idUser);
         Task SetLatestFlagIdAddress(int idAddress);
     }
 }

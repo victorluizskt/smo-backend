@@ -1,9 +1,4 @@
-﻿DECLARE @var1 INT;
-SELECT @var1 = id_user
+﻿SELECT id_address
 FROM dbo.endereco
-WHERE id_address = @idAddress;
-
-SELECT id_address
-FROM dbo.endereco
-WHERE id_user = @var1
+WHERE id_user = @idUser
 ORDER BY id_address DESC

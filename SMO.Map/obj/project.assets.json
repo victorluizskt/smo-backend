@@ -195,7 +195,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "SMO.Frontier": "1.0.0"
+          "SMO.Frontier": "1.0.0",
+          "SMO.Utils": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SMO.Business.dll": {}
