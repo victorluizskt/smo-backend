@@ -1,6 +1,0 @@
-projectKey=SMO
-serverUrl=http://localhost:9000
-serverVersion=7.5.0.20543
-dashboardUrl=http://localhost:9000/dashboard?id=SMO
-ceTaskId=AYGOISOCQCdJ7C2Nxy4x
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYGOISOCQCdJ7C2Nxy4x

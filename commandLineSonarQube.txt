@@ -1,0 +1,1 @@
+dotnet sonarscanner end /d:sonar.login="772f94671dde8f61959038ca106e701cbd486efc"
