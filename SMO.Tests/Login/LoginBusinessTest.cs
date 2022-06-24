@@ -13,15 +13,22 @@ namespace SMO.Tests.Login
     public class LoginBusinessTest
     {
         private readonly ILoginBusiness loginBusiness;
+        Mock<IUserRepository> userRepository;
+        Mock<IUserBusiness> userBusiness;
+
         public LoginBusinessTest()
         {
+            userRepository = new Mock<IUserRepository>(MockBehavior.Strict);
+            userBusiness = new Mock<IUserBusiness>(MockBehavior.Strict);
+
             loginBusiness = new LoginBusiness(
-                CreateMockedUserRepository(),
-                CreateMockedUserBusiness()
+                userRepository.Object,
+                userBusiness.Object
             );
         }
 
         private static readonly int ID_USER = 11;
+        private static readonly int INVALID_ID_USER = 0;
 
         #region Mock Return
         private UserDto userDto = new UserDto
@@ -47,36 +54,44 @@ namespace SMO.Tests.Login
                 Password = "1231456"
             };
         }
-        #endregion
-
-        #region Mocks
-
-        private IUserRepository CreateMockedUserRepository()
+        private static UserLogin InvalidUserLogin()
         {
-            var userRepository = new Mock<IUserRepository>(MockBehavior.Strict);
-            userRepository.Setup(x => x.ValidateUser(
-                It.IsAny<UserLogin>()
-            )).ReturnsAsync(() => ID_USER);
-
-            return userRepository.Object;
-        }
-
-        private IUserBusiness CreateMockedUserBusiness()
-        {
-            var userBusiness = new Mock<IUserBusiness>(MockBehavior.Strict);
-            userBusiness.Setup(x => x.GetUserById(ID_USER)).ReturnsAsync(() => userDto);
-
-            return userBusiness.Object;
+            return new UserLogin
+            {
+                Email = "victor",
+                Password = "12"
+            };
         }
         #endregion
 
         [Fact]
         public async Task ShouldLoginUserCorrect()
         {
+            userRepository.Setup(x => x.ValidateUser(
+                It.IsAny<UserLogin>()
+            )).ReturnsAsync(() => ID_USER);
+
+            userBusiness.Setup(x => x.GetUserById(ID_USER)).ReturnsAsync(() => userDto);
+
             var userStructure = await loginBusiness.LoginUser(UserLogin());
 
             Assert.NotNull(userStructure);
             Assert.Equal("AP 102", userStructure.Complement);
+        }
+
+        [Fact]
+        public async Task ShouldLoginUserIncorrect()
+        {
+            userRepository.Setup(x => x.ValidateUser(
+                It.IsAny<UserLogin>()
+            )).ReturnsAsync(() => INVALID_ID_USER);
+
+            userBusiness.Setup(x => x.GetUserById(INVALID_ID_USER)).ReturnsAsync(() => new UserDto());
+
+            var userStructure = await loginBusiness.LoginUser(InvalidUserLogin());
+
+            Assert.Null(userStructure.Complement);
+            Assert.Null(userStructure.Name);
         }
     }
 }

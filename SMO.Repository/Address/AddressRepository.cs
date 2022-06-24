@@ -56,7 +56,7 @@ namespace SMO.Repository.Address
         {
             var addressEntity = new AddressEntity(addressDto);
 
-            if(addressEntity is not null)
+            if(addressEntity.Street is not null)
             {
                 using var connection = userSession.CreateConnection();
 

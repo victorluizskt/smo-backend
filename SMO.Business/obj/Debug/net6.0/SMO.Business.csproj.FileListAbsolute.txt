@@ -13,3 +13,5 @@ C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.c
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.dll
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\ref\SMO.Business.dll
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\obj\Debug\net6.0\SMO.Business.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Utils.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Business\bin\Debug\net6.0\SMO.Utils.pdb

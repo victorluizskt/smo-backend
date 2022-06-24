@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>SMO.Repository</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>2d61d2ee-0204-4daa-9795-eebce60f43e4</ProjectGuid>
+  <FullPath>C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Repository\SMO.Repository.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Mentoria\SMO.BackEnd\SMO.Backend\.sonarqube\conf\3\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Repository\bin\Debug\net6.0\SMO.Repository.dll.RoslynCA.json|C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Repository\bin\Debug\net6.0\SMO.Repository.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Mentoria\SMO.BackEnd\SMO.Backend\.sonarqube\out\3</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net6.0</TargetFramework>
+</ProjectInfo>

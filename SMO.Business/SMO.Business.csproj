@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SMO.Frontier\SMO.Frontier.csproj" />
+    <ProjectReference Include="..\SMO.Utils\SMO.Utils.csproj" />
   </ItemGroup>
 
 </Project>

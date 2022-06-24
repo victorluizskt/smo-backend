@@ -163,7 +163,8 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "SMO.Business/1.0.0": {
         "dependencies": {
-          "SMO.Frontier": "1.0.0"
+          "SMO.Frontier": "1.0.0",
+          "SMO.Utils": "1.0.0"
         },
         "runtime": {
           "SMO.Business.dll": {}

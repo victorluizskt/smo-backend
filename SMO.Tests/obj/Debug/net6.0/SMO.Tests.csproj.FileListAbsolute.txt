@@ -107,3 +107,14 @@ C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\SMO.Business.dll
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\SMO.Frontier.dll
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\SMO.Business.pdb
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\SMO.Frontier.pdb
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\Dapper.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\SMO.Utils.dll
+C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Tests\bin\Debug\net6.0\SMO.Utils.pdb

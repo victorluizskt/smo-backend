@@ -29,6 +29,11 @@ namespace SMO.Business.Address
 
         public async Task<IEnumerable<AddressDto>> GetAddressById(int idUser)
         {
+            if(idUser <= 0)
+            {
+                return new List<AddressDto>();
+            }
+
             var addressUser = await AddressRepository.GetAddressById(idUser);
             return addressUser.Select(address => new AddressDto(address));
         }

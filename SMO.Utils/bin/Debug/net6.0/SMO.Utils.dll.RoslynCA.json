@@ -1,0 +1,359 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.21569.2 (52021b4b)",
+        "semanticVersion": "4.0.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Non-constant fields should not be visible",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 27,
+                  "endLine": 5,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Non-constant fields should not be visible",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 27,
+                  "endLine": 6,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 27,
+                  "endLine": 5,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 27,
+                  "endLine": 6,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'FLAG_USER' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 27,
+                  "endLine": 5,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'TWO_ADDRESS' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 27,
+                  "endLine": 6,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Non-constant fields should not be visible",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 27,
+                  "endLine": 7,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 27,
+                  "endLine": 7,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'SECOND_ADRRESS' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Constants.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 27,
+                  "endLine": 7,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3881",
+          "level": "warning",
+          "message": "Fix this implementation of 'IDisposable' to conform to the dispose pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Data/DbSession.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Data/DbSession.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Data/DbSession.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 21,
+                  "endLine": 19,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Provide 'protected' overridable implementation of 'Dispose(bool)' on 'DbSession' or mark the type as 'sealed'.",
+              "1": "'DbSession.Dispose()' should only invoke 'Dispose(true)' and 'GC.SuppressFinalize(this)'."
+            }
+          }
+        },
+        {
+          "ruleId": "CA1816",
+          "level": "note",
+          "message": "Change DbSession.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Mentoria/SMO.BackEnd/SMO.Backend/SMO.Utils/Data/DbSession.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 21,
+                  "endLine": 19,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1816": {
+          "id": "CA1816",
+          "shortDescription": "Dispose methods should call SuppressFinalize",
+          "fullDescription": "A method that is an implementation of Dispose does not call GC.SuppressFinalize; or a method that is not an implementation of Dispose calls GC.SuppressFinalize; or a method calls GC.SuppressFinalize and passes something other than this (Me in Visual Basic).",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2211": {
+          "id": "CA2211",
+          "shortDescription": "Non-constant fields should not be visible",
+          "fullDescription": "Static fields that are neither constants nor read-only are not thread-safe. Access to such a field must be carefully controlled and requires advanced programming techniques to synchronize access to the class object.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Vulnerability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2223": {
+          "id": "S2223",
+          "shortDescription": "Non-constant static fields should not be visible",
+          "fullDescription": "A static field that is neither constant nor read-only is not thread-safe. Correctly accessing these fields from different threads needs synchronization with locks. Improper synchronization may lead to unexpected results, thus publicly visible static fields are best suited for storing non-changing data shared by many consumers. To enforce this intent, these fields should be marked readonly or converted to constants.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2223",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S3881": {
+          "id": "S3881",
+          "shortDescription": "\"IDisposable\" should be implemented correctly",
+          "fullDescription": "The IDisposable interface is a mechanism to release unmanaged resources, if not implemented correctly this could result in resource leaks or more severe bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3881",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

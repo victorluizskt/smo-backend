@@ -30,13 +30,11 @@ namespace SMO.Frontier.Entities.Address
 
         public AddressEntity(AddressDto addressDto)
         {
-            IdAddress = addressDto.IdAddress;
             Street = addressDto.Street;
             City = addressDto.City;
             State = addressDto.State;
             PostalCode = addressDto.PostalCode;
             NumberHouse = addressDto.NumberHouse;
-            Flag = addressDto.Flag;
             Country = addressDto.Country;
             Complement = addressDto.Complement;
         }

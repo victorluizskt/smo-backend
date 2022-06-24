@@ -1,0 +1,1 @@
+C:\Mentoria\SMO.BackEnd\SMO.Backend\.sonarqube\out\1
