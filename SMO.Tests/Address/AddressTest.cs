@@ -26,6 +26,7 @@ namespace SMO.Tests.Address
             );
         }
 
+        #region Mock Return
         private readonly int VALID_ID_USER = 23;
         private readonly int INVALID_ID_USER = 0;
         private readonly int VALID_ID_ADDRESS_USER = 55;
@@ -59,7 +60,9 @@ namespace SMO.Tests.Address
                 }
             };
         }
+        #endregion
 
+        #region Facts
         private IEnumerable<int> ListIdAddressUser()
         {
             return new List<int>()
@@ -126,5 +129,6 @@ namespace SMO.Tests.Address
             var success = await AddressBusiness.DeleteAddressUser(VALID_ID_USER, VALID_ID_ADDRESS_USER);
             Assert.True(success);
         }
+        #endregion
     }
 }

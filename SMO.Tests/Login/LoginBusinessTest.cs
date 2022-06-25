@@ -64,6 +64,7 @@ namespace SMO.Tests.Login
         }
         #endregion
 
+        #region Facts
         [Fact]
         public async Task ShouldLoginUserCorrect()
         {
@@ -93,5 +94,6 @@ namespace SMO.Tests.Login
             Assert.Null(userStructure.Complement);
             Assert.Null(userStructure.Name);
         }
+        #endregion
     }
 }

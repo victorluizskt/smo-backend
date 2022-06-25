@@ -27,7 +27,7 @@ namespace SMO.Business.User
 
             using var transactionScope = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled);
             var cpfExists = await UserRepository.GetUserByCpf(userModel.CPF);
-            if (cpfExists is not null)
+            if (cpfExists.Any())
                 return false;
             var idUser = await UserRepository.CreateUser(userDto);
             var addressModel = CreateAddresModel(userModel);
@@ -52,7 +52,7 @@ namespace SMO.Business.User
 
             var mergeUserAddress = MergeUserAddress(userEntity, addressUser);
 
-            if (mergeUserAddress is not null)
+            if (mergeUserAddress.CPF is not null)
             {
                 return mergeUserAddress;
             }
@@ -70,9 +70,9 @@ namespace SMO.Business.User
         }
 
         #region Private
-        private static UserDto MergeUserAddress(UserEntity? userEntity, IEnumerable<AddressDto> addressUser)
+        private static UserDto MergeUserAddress(UserEntity userEntity, IEnumerable<AddressDto> addressUser)
         {
-            if(userEntity is not null)
+            if(userEntity.CPF is not null)
             {
                 var userDto = new UserDto(userEntity);
                 if (addressUser.Any())
