@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace SMO.Frontier.Interfaces.Data
+namespace MC.Frontier.Interfaces.Data
 {
     public interface IConnectionFactory
     {

@@ -1,4 +1,4 @@
-﻿namespace SMO.Utils
+﻿namespace MC.Utils
 {
     public static class Constants
     {

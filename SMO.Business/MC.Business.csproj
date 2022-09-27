@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SMO.Frontier\MC.Frontier.csproj" />
+    <ProjectReference Include="..\SMO.Utils\MC.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

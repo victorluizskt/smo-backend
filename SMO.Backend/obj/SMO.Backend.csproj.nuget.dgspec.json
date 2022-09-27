@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj": {}
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj": {}
   },
   "projects": {
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj": {
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj",
+        "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj",
         "projectName": "SMO.Backend",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj",
+        "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Backend\\SMO.Backend.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Backend\\obj\\",
+        "outputPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -31,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
               },
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Map\\SMO.Map.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Map\\SMO.Map.csproj"
               },
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
               }
             }
           }
@@ -72,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -84,22 +82,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj",
+        "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Business\\SMO.Business.csproj",
         "projectName": "SMO.Business",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj",
+        "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Business\\SMO.Business.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\obj\\",
+        "outputPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -115,11 +110,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
               },
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
               }
             }
           }
@@ -139,7 +134,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -148,22 +144,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
+        "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
         "projectName": "SMO.Frontier",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
+        "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\obj\\",
+        "outputPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -196,7 +189,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -205,22 +199,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj": {
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Map\\SMO.Map.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj",
+        "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Map\\SMO.Map.csproj",
         "projectName": "SMO.Map",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj",
+        "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Map\\SMO.Map.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\obj\\",
+        "outputPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Map\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -236,14 +227,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Business\\SMO.Business.csproj"
               },
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
               },
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj"
               }
             }
           }
@@ -269,7 +260,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -278,22 +270,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj": {
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj",
+        "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj",
         "projectName": "SMO.Repository",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj",
+        "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\obj\\",
+        "outputPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -309,11 +298,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
               },
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj"
               }
             }
           }
@@ -343,7 +332,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -352,22 +342,19 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
+    "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj",
+        "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj",
         "projectName": "SMO.Utils",
-        "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj",
+        "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\SMO.Utils.csproj",
         "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Utils\\obj\\",
+        "outputPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Utils\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -383,8 +370,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
-                "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+              "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
+                "projectPath": "C:\\MedicalClinic - Software Engineer\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
               }
             }
           }
@@ -418,7 +405,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -427,7 +415,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

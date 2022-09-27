@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace SMO.Utils.Data
+namespace MC.Utils.Data
 {
     public class DbSession : IDisposable
     {

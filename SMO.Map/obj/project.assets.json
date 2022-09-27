@@ -5,10 +5,14 @@
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
-          "lib/net5.0/Dapper.dll": {}
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net5.0/Dapper.dll": {}
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
@@ -17,19 +21,27 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -41,10 +53,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -66,10 +82,14 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
@@ -125,10 +145,14 @@
           "runtime.native.System.Data.SqlClient.sni": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {}
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {}
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
@@ -144,10 +168,14 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -160,10 +188,14 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
@@ -175,10 +207,14 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/_._": {}
+          "ref/netcoreapp3.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
@@ -191,60 +227,60 @@
           }
         }
       },
-      "SMO.Business/1.0.0": {
+      "MC.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "SMO.Frontier": "1.0.0",
-          "SMO.Utils": "1.0.0"
+          "MC.Frontier": "1.0.0",
+          "MC.Utils": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SMO.Business.dll": {}
+          "bin/placeholder/MC.Business.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMO.Business.dll": {}
+          "bin/placeholder/MC.Business.dll": {}
         }
       },
-      "SMO.Frontier/1.0.0": {
+      "MC.Frontier/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/SMO.Frontier.dll": {}
+          "bin/placeholder/MC.Frontier.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMO.Frontier.dll": {}
+          "bin/placeholder/MC.Frontier.dll": {}
         }
       },
-      "SMO.Repository/1.0.0": {
+      "MC.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Dapper": "2.0.123",
-          "SMO.Frontier": "1.0.0",
-          "SMO.Utils": "1.0.0",
+          "MC.Frontier": "1.0.0",
+          "MC.Utils": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
-          "bin/placeholder/SMO.Repository.dll": {}
+          "bin/placeholder/MC.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMO.Repository.dll": {}
+          "bin/placeholder/MC.Repository.dll": {}
         }
       },
-      "SMO.Utils/1.0.0": {
+      "MC.Utils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Dapper": "2.0.123",
+          "MC.Frontier": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "SMO.Frontier": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
-          "bin/placeholder/SMO.Utils.dll": {}
+          "bin/placeholder/MC.Utils.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SMO.Utils.dll": {}
+          "bin/placeholder/MC.Utils.dll": {}
         }
       }
     }
@@ -672,51 +708,47 @@
         "version.txt"
       ]
     },
-    "SMO.Business/1.0.0": {
+    "MC.Business/1.0.0": {
       "type": "project",
-      "path": "../SMO.Business/SMO.Business.csproj",
-      "msbuildProject": "../SMO.Business/SMO.Business.csproj"
+      "path": "../SMO.Business/MC.Business.csproj",
+      "msbuildProject": "../SMO.Business/MC.Business.csproj"
     },
-    "SMO.Frontier/1.0.0": {
+    "MC.Frontier/1.0.0": {
       "type": "project",
-      "path": "../SMO.Frontier/SMO.Frontier.csproj",
-      "msbuildProject": "../SMO.Frontier/SMO.Frontier.csproj"
+      "path": "../SMO.Frontier/MC.Frontier.csproj",
+      "msbuildProject": "../SMO.Frontier/MC.Frontier.csproj"
     },
-    "SMO.Repository/1.0.0": {
+    "MC.Repository/1.0.0": {
       "type": "project",
-      "path": "../SMO.Repository/SMO.Repository.csproj",
-      "msbuildProject": "../SMO.Repository/SMO.Repository.csproj"
+      "path": "../SMO.Repository/MC.Repository.csproj",
+      "msbuildProject": "../SMO.Repository/MC.Repository.csproj"
     },
-    "SMO.Utils/1.0.0": {
+    "MC.Utils/1.0.0": {
       "type": "project",
-      "path": "../SMO.Utils/SMO.Utils.csproj",
-      "msbuildProject": "../SMO.Utils/SMO.Utils.csproj"
+      "path": "../SMO.Utils/MC.Utils.csproj",
+      "msbuildProject": "../SMO.Utils/MC.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
-      "SMO.Business >= 1.0.0",
-      "SMO.Frontier >= 1.0.0",
-      "SMO.Repository >= 1.0.0"
+      "MC.Business >= 1.0.0",
+      "MC.Frontier >= 1.0.0",
+      "MC.Repository >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DCPDTI\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\DCPDTI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj",
-      "projectName": "SMO.Map",
-      "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\SMO.Map.csproj",
+      "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Map\\MC.Map.csproj",
+      "projectName": "MC.Map",
+      "projectPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Map\\MC.Map.csproj",
       "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-      "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Map\\obj\\",
+      "outputPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Map\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -732,14 +764,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj": {
-              "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Business\\SMO.Business.csproj"
+            "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Business\\MC.Business.csproj": {
+              "projectPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Business\\MC.Business.csproj"
             },
-            "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj": {
-              "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj"
+            "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Frontier\\MC.Frontier.csproj": {
+              "projectPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Frontier\\MC.Frontier.csproj"
             },
-            "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj": {
-              "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Repository\\SMO.Repository.csproj"
+            "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Repository\\MC.Repository.csproj": {
+              "projectPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Repository\\MC.Repository.csproj"
             }
           }
         }
@@ -765,7 +797,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -774,7 +807,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

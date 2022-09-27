@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using SMO.Backend;
+using MC.Backend;
 
-namespace VLIConecta.RelSIOPPortos
+namespace MC.Backend
 {
     public static class Program
     {

@@ -10,3 +10,15 @@ C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.d
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\ref\SMO.Frontier.dll
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.pdb
 C:\Mentoria\SMO.BackEnd\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.csproj.AssemblyReference.cache
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\SMO.Frontier.deps.json
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\SMO.Frontier.dll
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\bin\Debug\net6.0\SMO.Frontier.pdb
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.csproj.AssemblyReference.cache
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.GeneratedMSBuildEditorConfig.editorconfig
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.AssemblyInfoInputs.cache
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.AssemblyInfo.cs
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.csproj.CoreCompileInputs.cache
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.dll
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\refint\SMO.Frontier.dll
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\SMO.Frontier.pdb
+C:\MedicalClinic - Software Engineer\SMO.Backend\SMO.Frontier\obj\Debug\net6.0\ref\SMO.Frontier.dll

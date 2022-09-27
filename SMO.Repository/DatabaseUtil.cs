@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace SMO.Repository.DatabaseUtils
+namespace MC.Repository.DatabaseUtils
 {
     public class DatabaseUtil
     {

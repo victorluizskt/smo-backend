@@ -8,21 +8,17 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DCPDTI\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\DCPDTI\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
-      "projectName": "SMO.Frontier",
-      "projectPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
+      "projectUniqueName": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Frontier\\MC.Frontier.csproj",
+      "projectName": "MC.Frontier",
+      "projectPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Frontier\\MC.Frontier.csproj",
       "packagesPath": "C:\\Users\\DCPDTI\\.nuget\\packages\\",
-      "outputPath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\obj\\",
+      "outputPath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Frontier\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\DCPDTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -55,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -64,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

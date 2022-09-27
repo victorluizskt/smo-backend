@@ -1,7 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
-using SMO.Utils.Data;
 
-namespace SMO.Backend
+namespace MC.Backend
 {
     public class Startup
     {
@@ -29,12 +28,12 @@ namespace SMO.Backend
                 opt.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "API SMO",
-                    Description = "API SMO",
+                    Title = "API Medical Clinic",
+                    Description = "API Medical Clinic",
                     Contact = new OpenApiContact
                     {
-                        Name = "SMO - Sistema de Monitoramento de Oficinas",
-                        Url = new Uri("https://github.com/victorluizskt")
+                        Name = "MC - Medical Clinic",
+                        Url = new Uri("https://github.com/victorluizskt/medical-clinic")
                     }
                 });
             });

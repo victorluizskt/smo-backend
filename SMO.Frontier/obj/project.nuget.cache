@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SS3UA0IL1t1lZPI7libTXEcPRnB2ILWYk+97hOyOOfVU3ozwwFQ5arplNGteEM5kyMPfpAV++/Acdk3IMwNlYw==",
+  "dgSpecHash": "bi0yWVyijn38P4f+LNciYny9ayYKkYP79X83keBUC+362CagNXSiGNP4hW1E0yPhHdmVrjq9KBpNFhffE+HhNA==",
   "success": true,
-  "projectFilePath": "C:\\Mentoria\\SMO.BackEnd\\SMO.Backend\\SMO.Frontier\\SMO.Frontier.csproj",
+  "projectFilePath": "C:\\MedicalClinic - Software Engineer\\MC.Backend\\SMO.Frontier\\MC.Frontier.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
